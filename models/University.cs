@@ -7,12 +7,13 @@ namespace StudentsAndProfessors.models
 {
     public class University
     {
-        public string Name { get; set; }
-        public List<Professor>  Professors { get; set; }
-        public List<Student>    Students { get; set; }
-        public List<CourseInfo> CoursesInfo { get; set; }
-        public List<Course>     Courses { get; set; }
-        public List<Classes>    ClassesEn { get; set; }
+        public string               Name            { get; set; }
+        public List<Professor>      Professors      { get; set; }
+        public List<Student>        Students        { get; set; }
+        public List<CourseInfo>     CoursesInfo     { get; set; }
+        public List<Course>         Courses         { get; set; }
+        public List<Classes>        ClassesEn       { get; set; }
+        public List<Grade>          Grades          { get; set; }
 
         public University()
         {
